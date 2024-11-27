@@ -8,7 +8,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from './button';
-import { useFormState } from 'react-dom'; // TODO: update to useActionState
+import { useFormState } from "react-hook-form"; // TODO: update to useActionState
 import { authenticate } from '@/app/lib/actions';
 
 export default function LoginForm() {
